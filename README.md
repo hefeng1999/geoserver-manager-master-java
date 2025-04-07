@@ -11,12 +11,21 @@
 ### Working with Maven 
 
 ```xml
-  <dependency>
-    <groupId>io.github.hefeng1999</groupId>
-    <artifactId>geoserver-manager</artifactId>
-    <version>1.8.0</version>
-  </dependency>
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+
+ <dependency>
+    <groupId>com.github.hefeng1999</groupId>
+      <artifactId>geoserver-manager-master-java</artifactId>
+    <version>91e9ffed78</version>
+</dependency>
 ```
 
 ## Note
+Read https://jitpack.io/#hefeng1999/geoserver-manager-master-java
 This repository fork by [geosolutions-it/geoserver-manager](https://github.com/geosolutions-it/geoserver-manager)
