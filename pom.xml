@@ -1,5 +1,5 @@
 <!--
-* GeoServer-Manager - Simple Manager Library for GeoServer
+* geoserver-manager-java - Simple Manager Library for GeoServer
 *
 * Copyright (C) 2007 - 2016 GeoSolutions S.A.S. http://www.geo-solutions.it
 *
@@ -28,7 +28,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.hefeng1999</groupId>
-    <artifactId>geoserver-manager</artifactId>
+    <artifactId>geoserver-manager-java</artifactId>
     <version>1.8.0</version>
 
     <packaging>jar</packaging>
@@ -43,7 +43,7 @@
 
     <inceptionYear>2007</inceptionYear>
 
-    <url>https://github.com/hefeng1999/geoserver-manager</url>
+    <url>https://github.com/hefeng1999/geoserver-manager-java</url>
 
     <organization>
         <name>GeoSolutions</name>
@@ -98,27 +98,27 @@
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/hefeng1999/geoserver-manager/issues</url>
+        <url>https://github.com/hefeng1999/geoserver-manager-java/issues</url>
     </issueManagement>
 
     <mailingLists>
         <mailingList>
             <name>GeoServer Manager User List</name>
-            <post>geoserver-manager-users@googlegroups.com</post>
-            <archive>http://groups.google.com/group/geoserver-manager-users/topics</archive>
+            <post>geoserver-manager-java-users@googlegroups.com</post>
+            <archive>http://groups.google.com/group/geoserver-manager-java-users/topics</archive>
         </mailingList>
     </mailingLists>
 
     <scm>
         <connection>
-            scm:git:[fetch=]https://github.com/geosolutions-it/geoserver-manager.git[push=]git@github.com:geosolutions-it/geoserver-manager.git
+            scm:git:[fetch=]https://github.com/geosolutions-it/geoserver-manager-java.git[push=]git@github.com:geosolutions-it/geoserver-manager-java.git
         </connection>
-        <url>https://github.com/geosolutions-it/geoserver-manager</url>
+        <url>https://github.com/geosolutions-it/geoserver-manager-java</url>
     </scm>
 
     <ciManagement>
         <system>jenkins</system>
-        <url>http://build.geo-solutions.it/jenkins/view/GeoServer-manager/</url>
+        <url>http://build.geo-solutions.it/jenkins/view/geoserver-manager-java/</url>
     </ciManagement>
 
     <repositories>
